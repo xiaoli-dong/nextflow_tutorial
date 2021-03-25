@@ -1,0 +1,4 @@
+module load blast/2.10.0
+makeblastdb -in input.fasta -dbtype 'nucl' -out blastDB
+mkdir DB
+mv blastDB.n* DB
